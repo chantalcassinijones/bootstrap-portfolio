@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #424874 !important;
+}
+
+ h2 {
+    background-color: #DCD6F7;
+}
+
+#jumbotron {
+   background: linear-gradient(90deg, rgba(53, 56, 64, 1) 0%, rgba(255, 62, 136, 1) 35%, rgba(156, 217, 217, 1) 100%);
+}
+
+.nav-link {
+    color: #ff3e88;
+}
+
+.navbar-brand {
+
+    color: #424874;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.btn-primary {
+             --bs-btn-color: #fff;
+        --bs-btn-bg: #424874;
+        --bs-btn-border-color: #424874;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #424874;
+        --bs-btn-hover-border-color: #424874;
+        --bs-btn-focus-shadow-rgb: 49,132,253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #424874;
+        --bs-btn-active-border-color: #424874;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #424874;
+        --bs-btn-disabled-border-color: #424874;
+    }
+
+.btn:hover {
+
+    background-color: #424874;
+    border-color:#424874;
+
+}
+
+.work {
+    color: #424874;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+
