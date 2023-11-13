@@ -46,16 +46,38 @@ h1 {
 
 .btn:hover {
 
-    background-color: #424874;
-    border-color:#424874;
+    background-color: #4c506f;
+    border-color:#4c506f;
 
 }
 
-.work {
+.work, .skills {
     color: #424874;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.work-gap {
+    row-gap: 30px;
+}
+
+.card {
+    border-color: #ff3e88;
+}
+
+.contact-me {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.contact-border {
+    border-color: #ff3e88;
+}
+
+.image-hero {
+    width: 200px;
+    height: 300px;
 }
 
 
