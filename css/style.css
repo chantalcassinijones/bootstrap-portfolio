@@ -1,4 +1,8 @@
-.navbar {
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+    .navbar {
     background-color: #424874 !important;
 }
 
@@ -85,3 +89,18 @@ h1 {
 }
 
 
+.card-title {
+    color: #ff3e88;
+}
+
+.skill-list {
+    justify-content: center;
+}
+
+.list-group-item {
+    border-color: #ff3e88;
+    color: #424874;
+}
+footer {
+    background-color:#ff3e88;
+}
