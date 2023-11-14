@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chantal Cassini-Jones Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="../bootstrap-portfolio/css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid">
@@ -43,20 +43,19 @@
     </div>
 
     
-    <div class="p-5 mb-4 bg-body-tertiary" id="jumbotron">
+    <div class="p-5 mb-4 bg-body-tertiary d-flex" id="jumbotron">
+      <div class="col-lg-5 my-auto">
+        <div class="device-container">
+          <img src="../images/IMG_9571-EDIT.jpg" class="img-fluid image-hero" alt="picture-of-me">
+        </div>
+      </div>
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Welcome! I'm Chantal, Web Developer</h1>
           <p class="col-md-8 fs-4">In my day-to-day life I'm a sales consultant with a growing passion for social media, UX design and coding. I'm looking for a complete career change and hoping to find my place in the tech industry.
                                    In my free time I love reading and reviewing books, taking long walks with my dog and spending time with my family.</p>
-          <button class="btn btn-primary btn-lg resume-button" type="button">View my Linkedin</button>
+          <button class="btn btn-primary btn-lg resume-button" type="button">View my Github</button>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <img src="../bootstrap-portfolio/images/IMG_9571-EDIT.jpg" class="img-fluid image-hero" alt="picture-of-me">
-          </div>
-        </div>
-        </div>
-      
+      </div>
 
     <div class="container-fluid">
         <div class="row work-gap">
@@ -117,7 +116,36 @@
     <div class="container-fluid">
       <div class="row">
         <h3 class=" text-uppercase skills" id="my-skills">My Skills</h3>
-        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Javascript</li>
+          </ul>
+          <ul class="list-group list-group-horizontal-sm flex-fill">
+            <li class="list-group-item">Flexbox and CSS Grids</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">Git and Command Line</li>
+          </ul>
+          <ul class="list-group list-group-horizontal-md flex-fill">
+            <li class="list-group-item">Github</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <ul class="list-group list-group-horizontal-lg flex-fill">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <ul class="list-group list-group-horizontal-xl">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <ul class="list-group list-group-horizontal-xxl">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
         </div>
       </div>
     </div>
